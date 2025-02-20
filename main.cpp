@@ -2,207 +2,143 @@
 using namespace std;
 int main() {
 
-    //Problem (switch)
-    // int a, b, calc, result = 0;
-    // cout << "Please enter two numbers: ";
-    // cin >> a >> b;
-    // cout << "Please select a number from 1 to 4 to compute! ";
-    // cin >> calc;
-    // switch (calc) {
-    //     case 1: result = a + b;
-    //     cout << "The sum of the two numbers is: ";
-    //     break;
-    //     case 2: result = a - b;
-    //     cout << "The difference of the two numbers is: ";
-    //     break;
-    //     case 3: result = a * b;
-    //     cout << "The product of the two numbers is: ";
-    //     break;
-    //     case 4: result = a / b;
-    //     cout << "The quotient of the two numbers is: ";
-    //     break;
-    // }
-    // cout << result;
+  //Problem 1(a)
+  //   int n, sum = 0;
+  //   cout << "The sum of first 100 natural numbers is: ";
+  //  for (int i = 1; i <= 100; i++) {
+  //     sum += i;
+  //
+  // }
+  //     cout << sum;
 
-    //Problem 1.1
-    // cout << "The first 10 natural numbers are: ";
-    // for (int i = 1; i <= 10; i++) {
-    //     cout << i << " ";
+
+   //Problem 1(b)
+
+   //  int n, sum = 0;
+   //  cout << "Enter a number: ";
+   //  cin >> n;
+   //  while (n > 0) {
+   //      sum += n;
+   //      n--;
+   //  }
+   // cout << sum << endl;
+
+    //Problem 2(a)
+    // int count = 0, num = 2;
+    // cout << "The first 10 prime numbers are: ";
+    // for (; count < 10; num++) {
+    //     bool isPrime = true;
+    //     for (int i = 2; i <= sqrt(num); i++) {
+    //         if (num % i == 0) {
+    //             isPrime = false;
+    //             break;
+    //         }
+    //     }
+    //     if (isPrime) {
+    //         cout << num << " ";
+    //         count++;
+    //     }
     // }
 
-    //Problem 1.2
-    // int n;
-    // cout << "The first N natural numbers are: ";
+    //Problem 2(b)
+    // int count = 0, num = 2, n;
+    // cout << "The first n prime numbers are: ";
     // cin >> n;
-    // for (int i = 1; i <= n; i++)
-    //     cout << i << " ";
-
-    //Problem 1.3
-    // int sum = 0;
-    // cout << "The sum of first 10 natural numbers are: ";
-    // for (int i = 1; i <= 10; i++) {
-    //     sum += i;
-    // }
-    // cout << sum;
-
-    //Problem 1.4
-    // int n, sum = 0;
-    // cout << "Enter a natural number: ";
-    // cin >> n;
-    // cout << "The sum of the first N natural numbers are: ";
-    // for (int i = 1; i <= n; i++) {
-    //     sum += i;
-    // }
-    // cout << sum;
-
-    //Problem 1.5
-    // float avg, sum = 0;
-    // for (int i = 1; i <= 10; i++) {
-    //     sum += i;
-    // }
-    // avg = sum / 10;
-    // cout << "The average of 10 natural numbers is: "<< avg << endl;
-
-    //Problem 1.6
-    // float n; int sum = 0;
-    // cout << "Enter a natural number: ";
-    // cin >> n;
-    // for (int i = 1; i <= n; i++) {
-    //     sum += i;
-    // }
-    // float average = sum / n;
-    // cout << "The average of N natural numbers is: " << average;
-
-    //Problem 2.1
-    // cout << "Odd numbers among the first 10 natural numbers: ";
-    // for (int i = 1; i <= 10; i++) {
-    //     if (i % 2 == 1)
-    //         cout << i << " ";
+    // while (count < n) {
+    //     bool isPrime = true;
+    //     for (int i = 2; i <= sqrt(num); i++) {
+    //         if (num % i == 0) {
+    //             isPrime = false;
+    //             break;
+    //         }
+    //     }
+    //     if (isPrime) {
+    //         cout << num << " ";
+    //         count++;
+    //     }
+    //     num++;
     // }
 
-    //Problem 2.2
-    // cout << "Even numbers among the first 10 natural numbers: ";
-    // for (int i = 1; i <= 10; i++) {
-    //     if (i % 2 == 0)
-    //         cout << i << " ";
-    // }
-
-    //Problem 2.3
-    // int n;
-    // cout << "Enter a natural number: ";
-    // cin >> n;
-    // cout << "Odd numbers among the first N natural numbers: ";
-    // for (int i = 1; i <= n; i++) {
-    //     if (i % 2 == 1)
-    //         cout << i << " ";
-    // }
-
-    //Problem 2.4
+    //Porblem 3
     // int n;
     // cout << "Enter a number: ";
     // cin >> n;
-    // cout << "Even numbers among the first N natural numbers: ";
-    // for (int i = 1; i <= n; i++) {
-    //     if (i % 2 == 0)
-    //         cout << i << " " ;
-    // }
-
-    //Problem 2.5
-    // cout << "Numbers, divisible by 10, within the range from 1 to 100: ";
-    // for (int i = 1; i <= 100; i ++ ) {
-    //     if (i % 10 == 0)
-    //         cout << i << " ";
-    // }
-
-    //Problem 2.6
-    // int n;
-    // cout << "Enter a natural number: ";
-    // cin >> n;
-    // cout <<  "Numbers – divisible by 10 – within the range from 1 to N: ";
-    // for (int i = 1; i <= n; i ++) {
-    //     if (i % 10 == 0)
-    //         cout << i << " ";
-    // }
-
-    //Problem 3
-    // int counter = 0;
-    // cout << "The uppercase letters of the ASCII character table: " << endl;
-    // for (char i = 'A'; i <= 'Z'; i ++) {
-    //     cout << i << " ";
-    //     counter++;
-    //     if (counter == 5) {
-    //         cout << "\n";
-    //         counter = 0;
+    //
+    // while (n != 1) {
+    //     if (n % 2 == 0) {
+    //         n = n / 2;
     //     }
+    //     else {
+    //         n = 3*n + 1;
+    //     }
+    //     cout << n << " ";
     // }
-    // if (counter > 0) {
-    //     cout << endl;
-    // }
+    //
 
     //Problem 4
-    // int n;
+    // int n, digit = 0;
     // cout << "Enter a number: ";
     // cin >> n;
-    // if (n < 0) {
-    //     cout << "Factorial of a negative number is not defined." << endl;
+    // while (n > 0) {
+    //     n = n / 10;
+    //     digit++;
     // }
-    // else {
-    //     long long factorial = 1; // Initialize factorial to 1 (0! = 1)
-    //     // Calculate factorial using a for loop
-    //     for (int i = 1; i <= n; ++i) {
-    //         factorial *= i;
-    //     }
-    //
-    //     cout << "Factorial of " << n << " is " << factorial << endl;
-    // }
+    // cout << digit;
 
     //Problem 5
-    // int numClasses;
-    // cout << "Enter the number of classes: ";
-    // cin >> numClasses;
-    //
-    // double totalGradePoints = 0;
-    // int totalCredits = 0;
-    //
-    // cout << "Enter the credit hours first, then your total grade: " << endl;
-    // for (int i = 1; i <= numClasses; i++) {
-    //     double grade, credits;
-    //     cin >> credits;
-    //     cin >> grade;
-    //     totalGradePoints += grade * credits;
-    //     totalCredits += credits;
+    // int n, r, digit = 0;
+    // cout << "Enter a number: ";
+    // cin >> n;
+    // while (n > 0) {
+    //     r = n % 10;
+    //     n = n / 10;
+    //     cout << r << " ";
     // }
-    //
-    // double gpa = totalGradePoints / totalCredits;
-    //
-    // cout << "Your total GPA is: " << gpa << endl;
 
     //Problem 6
-    int numCourses, numStudents; double GPA;
-    double totalGradePoints = 0;
-    int totalCredits = 0;
-
-    cout << "Enter the number of students: ";
-    cin >> numStudents;
-    //cout << "Enter the credit hours first, then student's total grade: " << endl;
-
-    for (int i = 1; i <= numStudents; i++) {
-        cout << "Enter the number of courses: ";
-        cin >> numCourses;
-        for (int j = 1; j <= numCourses; j++) {
-            double grade, credits;
-
-            cin >> grade;
-            cin >> credits;
-
-            totalGradePoints += grade * credits;
-            totalCredits += credits;
-            GPA = totalGradePoints / totalCredits;
-        }
-    }
-
-    cout << "Your total GPA is: " << GPA << endl;
-
+    // Input numbers
+    // int num1 = 48;
+    // int num2 = 18;
+    //
+    // // Make sure num1 is the larger number
+    // if (num2 > num1) {
+    //     int temp = num1; // Store num1 temporarily
+    //     num1 = num2;     // Swap num1 and num2
+    //     num2 = temp;
+    // }
+    //
+    // // Euclidean Algorithm using a while loop
+    // while (num2 != 0) {
+    //     int remainder = num1 % num2; // Calculate the remainder
+    //     num1 = num2;                 // Replace num1 with num2
+    //     num2 = remainder;            // Replace num2 with the remainder
+    // }
+    //
+    // // Output the GCD
+    // std::cout << "Input: 48,18" << std::endl;
+    // std::cout << "Output: " << num1 << std::endl; // num1 now holds the GCD
+    //
+    // // Second Example
+    //
+    // num1 = 81;
+    // num2 = 27;
+    //
+    // if (num2 > num1) {
+    //     int temp = num1;
+    //     num1 = num2;
+    //     num2 = temp;
+    // }
+    //
+    // while (num2 != 0) {
+    //     int remainder = num1 % num2;
+    //     num1 = num2;
+    //     num2 = remainder;
+    // }
+    //
+    // std::cout << "Input: 81,27" << std::endl;
+    // std::cout << "Output: " << num1 << std::endl;
+    //
+    //
 
 return 0;
 }
